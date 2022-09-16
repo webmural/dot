@@ -30,7 +30,7 @@ address { font: inherit }
 }
 
 :focus {
-  box-shadow: 0 0 21ex 1pt pink;
+  box-shadow: 0 0 1ex 1pt pink;
   text-decoration-style: double;
   outline-style: dotted;
   outline-width: thick;
@@ -49,11 +49,6 @@ address { font: inherit }
     background: #E6007A;
     color: #030103;
   }
-}
-
-::selection {
-  background: coral;
-  color: black;
 }
 
 textarea {
