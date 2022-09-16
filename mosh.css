@@ -18,8 +18,9 @@ h1 {
   font-weight: 500;
 }
 
-address { font: inherit }
+label { touch-action: manipulation }
 label code { font-weight: 600 }
+address { font: inherit }
 
 :any-link {
   color: inherit;
