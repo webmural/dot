@@ -24,15 +24,17 @@ address { font: inherit }
 
 :any-link {
   color: inherit;
+  border-radius: 1ex;
   text-decoration-style: dotted;
-  text-decoration-thickness: .2ex;
+  text-decoration-thickness: .333ex;
 }
 
 :focus {
-  text-decoration-style: dotted;
-  outline-style: groove;
+  box-shadow: 0 0 21ex 1pt pink;
+  text-decoration-style: double;
+  outline-style: dotted;
   outline-width: thick;
-  outline-color: seashell;
+  outline-color: black;
 }
 
 @media (color) {
@@ -61,6 +63,8 @@ textarea {
   width: 100%;
   padding: 1ex;
   border-radius: 1em;
+  border-style: dotted;
+  border-width: thick;
   vertical-align: middle;
 }
 
